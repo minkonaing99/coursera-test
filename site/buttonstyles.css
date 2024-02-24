@@ -8,6 +8,7 @@ body:before {
 
 nav {
     background-color: rgb(45, 45, 60);
+    width: 400px;
     position: relative;
     z-index: 1;
 }
@@ -20,7 +21,7 @@ nav ul {
     gap: 40px
 }
 
-nav.before .active-element {
+nav:after .active-element {
     transform: rotateY('180deg');
 }
 
