@@ -1,0 +1,8 @@
+Class selector
+    Element with class selector (selector.class)
+    Child(Direct) selector (selector > selector)
+    Descendent selector (selector selector)
+
+Not common selector
+    Adjacent sibling selector (selector + selector)
+    General sibling selector ( selector ` selector)
