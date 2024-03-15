@@ -7,11 +7,26 @@ a:link, a:visited {
     width: 200px;
     text-align: center;
     margin-bottom: 1px;
+    font-family: Helvetica;
 }
 a:hover, a:active {
-    background-color: red;
+    background-color: red !important;
     color: purple;
 }
 section li{
     list-style: none;
-  }
+    }
+
+.class1 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: maroon;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+article {
+    font-size: 2em;
+}

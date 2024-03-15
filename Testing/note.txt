@@ -14,7 +14,13 @@ origin - last declaration wins
         if there is external css, also lower declaration wins
         - declaration merge
         if they are different origin, they will get both properties
-
-merge
 inheritance
+    DOM Tree
 specificity
+    Most specific selector combination wins
+    style=""
+    ID
+    Class, pseudo
+    # of element
+
+    default font size: 16px
