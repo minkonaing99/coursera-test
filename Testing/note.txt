@@ -6,3 +6,15 @@ Class selector
 Not common selector
     Adjacent sibling selector (selector + selector)
     General sibling selector ( selector ` selector)
+
+
+Concept of styple placing
+origin - last declaration wins
+        lower precedence wins
+        if there is external css, also lower declaration wins
+        - declaration merge
+        if they are different origin, they will get both properties
+
+merge
+inheritance
+specificity
